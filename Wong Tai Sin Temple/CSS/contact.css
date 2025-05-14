@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #BF1A2F;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    margin: 10px 0;
+    margin-top: 20px;
+
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #BF1A2F;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #BF1A2F;
+    color: white;
+    position: relative;
+    bottom: 0cm;
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.item {
+    text-align: center;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+}
+
+.slideandinfo {
+    display: flex;
+    padding: 20px;
+}
+.slideshow {
+    flex: 2.5;
+    margin-right: 20px;
+}
+.slideshow img {
+    width: 100%;
+    height: auto;
+}
+.info {
+    flex: 1;
+}
+
+.map {
+    text-align: center;
+}
+
+.map img {
+    max-width: 100%;
+}
+
+#searchbar {
+    border-radius: 100px;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif;
+}
+/* 全局樣式 */
+body {
+    font-family: 'Microsoft JhengHei', Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* 主標題樣式 */
+.main-title {
+    color: #BF1A2F;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.main-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #BF1A2F, #ff6b6b);
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(191, 26, 47, 0.2);
+}
+
+/* 區塊樣式 */
+.section {
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    color: #BF1A2F;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* 分隔線樣式 */
+.divider {
+    border-top: 2px solid #BF1A2F;
+    margin: 2rem 0;
+    opacity: 0.3;
+}
+
+/* 社交媒體圖標樣式 */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+.social-link img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.social-link:hover img {
+    transform: scale(1.1);
+}
+
+/* 應用程式下載按鈕樣式 */
+.app-download {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.app-link img {
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+
+.app-link:hover img {
+    transform: scale(1.05);
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .social-media {
+        gap: 1rem;
+    }
+    
+    .app-download {
+        gap: 1rem;
+    }
+    
+    .social-link img {
+        height: 40px;
+    }
+    
+    .app-link img {
+        height: 120px;
+    }
+}
+
+.section:last-child {
+    margin-bottom: -1.5cm;
+}
+
+.section-divider {
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(191, 26, 47, 0.2);
+} 

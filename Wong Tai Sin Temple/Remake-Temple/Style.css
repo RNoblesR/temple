@@ -1,0 +1,31 @@
+:root {
+  --dark-red: #BF1A2F;
+  --champagne-pink: #E7CFBC;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--dark-red);
+}
+
+
+header,
+footer,
+nav {
+  background-color: var(--champagne-pink);
+}
+
+
+.border {
+  border-color: var(--champagne-pink) !important;
+}
+
+a {
+  color: var(--dark-red);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}

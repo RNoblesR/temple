@@ -1,0 +1,297 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #BF1A2F;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    margin: 10px 0;
+    margin-top: 20px;
+
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #BF1A2F;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #BF1A2F;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.item {
+    text-align: center;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+}
+
+.slideandinfo {
+    display: flex;
+    padding: 20px;
+}
+.slideshow {
+    flex: 2.5;
+    margin-right: 20px;
+}
+.slideshow img {
+    width: 100%;
+    height: auto;
+}
+.info {
+    flex: 1;
+}
+
+.map {
+    text-align: center;
+}
+
+.map img {
+    max-width: 100%;
+}
+
+#searchbar {
+    border-radius: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #BF1A2F;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    margin: 10px 0;
+    margin-top: 20px;
+
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #BF1A2F;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #BF1A2F;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.item {
+    text-align: center;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+}
+
+.slideandinfo {
+    display: flex;
+    padding: 20px;
+}
+.slideshow {
+    flex: 2.5;
+    margin-right: 20px;
+}
+.slideshow img {
+    width: 100%;
+    height: auto;
+}
+.info {
+    flex: 1;
+}
+
+.map {
+    text-align: center;
+}
+
+.map img {
+    max-width: 100%;
+}
+
+#searchbar {
+    border-radius: 100px;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif;
+}
+
+/* 主標題樣式 */
+.main-title {
+    color: #BF1A2F;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: left;
+    padding-left: 1rem;
+    border-left: 5px solid #BF1A2F;
+}
+
+/* 參神區塊樣式 */
+.worship-section {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(191, 26, 47, 0.1);
+}
+
+/* 區塊標題按鈕樣式 */
+.section-title {
+    background-color: #BF1A2F;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.section-title:hover {
+    background-color: #9e1526;
+    color: white;
+    text-decoration: none;
+}
+
+/* 區塊內容樣式 */
+.section-content {
+    text-align: center;
+}
+
+.section-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.section-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* 備註樣式 */
+.note {
+    color: #BF1A2F;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* 分隔線樣式 */
+.section-divider {
+    border: none;
+    height: 2px;
+    background-color: rgba(191, 26, 47, 0.2);
+    margin: 3rem 0;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .worship-section {
+        padding: 1.5rem;
+    }
+    
+    .section-title {
+        font-size: 1.3rem;
+        padding: 0.8rem 1.5rem;
+    }
+    
+    .section-content p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}

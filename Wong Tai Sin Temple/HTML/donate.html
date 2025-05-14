@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>黃大仙廟 - 捐款方法</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/donate.css" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <header>
+      <div class="container1">
+        <input type="text" placeholder="Search.." class="item" id="searchbar" />
+        <a href="../HTML/homepage.html"
+          ><img
+            src="../images/wts_logo.png"
+            alt="WTS Logo"
+            class="item"
+            id="logo"
+        /></a>
+        <div class="item">
+          <a href="../HTML/donate.html">繁</a>
+          <a href="../HTML/donate.simp.html">簡</a>
+          <a href="../HTML/donate.eng.html">Eng</a>
+        </div>
+      </div>
+
+      <nav>
+        <a href="../HTML/about.html">關於黃大仙</a>
+        <a href="../HTML/news.html">最新消息</a>
+        <a href="../HTML/event.html">活動</a>
+        <a href="../HTML/pray.html">網上參神</a>
+        <a href="../HTML/donate.html">捐款</a>
+        <a href="../HTML/contact.html">聯絡我們</a>
+        <a href="../HTML/faq.html">常見問題</a>
+      </nav>
+    </header>
+
+    <div class="container py-5">
+      <!-- 第一部分：慈善捐款 -->
+      <div class="donation-section">
+          <h2 class="section-title">慈善捐款</h2>
+          <div class="section-content">
+              <p>本園為政府認可獲豁免繳稅的慈善團體，收入來源主要來自各界善長仁翁的捐獻，以及政府的津助。所得的款額除了用於各項善業如社會服務、教育、醫療服務、緊急援助等項目外，並用於宗教事務及黃大仙祠的日常運作上。</p>
+          </div>
+      </div>
+  </div>
+
+    <div class="container py-5">
+        <!-- 第二部分：捐款方法 -->
+        <div class="donation-methods">
+            <h2 class="section-title text-center">捐款方法</h2>
+            
+            <div class="row mt-4">
+                <!-- 左側選項 -->
+                <div class="col-md-4">
+                    <div class="method-buttons">
+                        <button class="method-btn active" data-target="online">
+                            網上捐款
+                        </button>
+                        <button class="method-btn" data-target="other">
+                            支票/八達通/支付寶香港
+                        </button>
+                        <button class="method-btn" data-target="bank">
+                            銀行存款
+                        </button>
+                        <button class="method-btn" data-target="pps">
+                            繳費靈
+                        </button>
+                        <button class="method-btn" data-target="inperson">
+                            親臨捐款
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- 右側內容 -->
+                <div class="col-md-8">
+                    <div class="method-content">
+                        <!-- 網上捐款表單 -->
+                        <div id="online" class="method-details active">
+                            <h3 class="sub-title">捐款金額</h3>
+                            <p class="note">捐款滿港幣100元或以上可憑收據向政府申請免稅</p>
+                            
+                            <div class="form-group">
+                                <label>HK$</label>
+                                <input type="number" class="form-control" min="100">
+                            </div>
+                            <hr class="divider">
+                            
+                            <h3 class="sub-title">捐助項目</h3>
+                            <select class="form-select">
+                                <option>慈善捐款 (醫療/社福/教育/其他慈善服務)</option>
+                                <option>香油捐獻</option>
+                                <option>黃允畋慈善基金(醫療)</option>
+                                <option>嗇色園緊急援助基金</option>
+                            </select>
+                            <hr class="divider">
+                            
+                            <h3 class="sub-title">捐款收據</h3>
+                            <div class="form-group">
+                                <label>Email:</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            
+                            <button class="submit-btn">提交</button>
+                        </div>
+                        
+                        <!-- 其他捐款方式內容 -->
+                        <div id="other" class="method-details">
+                            <!-- 支票部分 -->
+                            <h3 class="sub-title">支票</h3>
+                            <p>1.劃線支票抬頭: 嗇色園</p>
+                            <p>2.下載並填妥捐款表格</p>
+                            <p>3.將支票連同捐款表格郵寄至九龍黃大仙竹園村二號嗇色園總辦事處收</p>
+                            <p>4.本園將會為捐款人發出正式收據</p>
+                            <p class="note">* 捐款滿港幣100元或以上可憑收據向政府申請免稅</p>
+                            <p>嗇色園所收集之個人資料只供本園作發出收據、通訊、籌款及收集意見之用。所有資料絕對保密。如有任何問題，可致電(852) 2327 8141 與本園聯絡。</p>
+                            <a href="https://www2.siksikyuen.org.hk/docs/default-source/%E6%85%88%E5%96%84%E6%8D%90%E6%AC%BE/ssyf-go-016(v1-1)_%E6%8D%90%E6%AC%BE%E8%A1%A8%E6%A0%BC.pdf" class="download-btn">捐款表格下載</a>
+                            <hr class="divider">
+
+                            <!-- 八達通部分 -->
+                            <h3 class="sub-title">八達通</h3>
+                            <p>請使用手機掃描以下二維碼以使用八達通進行捐款。</p>
+                            <img src="../Images/donate1.jpg" alt="八達通捐款二維碼" class="method-image">
+                            <hr class="divider">
+
+                            <!-- 支付寶香港部分 -->
+                            <h3 class="sub-title">支付寶香港</h3>
+                            <p>請使用手機掃描以下二維碼，以直接進入嗇色園在支付寶香港的慈善專頁捐款。</p>
+                            <img src="../Images/donate2.jpg" alt="支付寶香港捐款二維碼" class="method-image">
+                            <hr class="divider">
+
+                            <!-- PayMe部分 -->
+                            <h3 class="sub-title">PayMe</h3>
+                            <p>請使用手機掃描以下二維碼，以使用PayMe進行捐款。</p>
+                            <img src="../Images/donate3.jpeg" alt="PayMe捐款二維碼" class="method-image">
+                        </div>
+
+                        <!-- 銀行存款內容 -->
+                        <div id="bank" class="method-details">
+                            <h3 class="sub-title">銀行存款</h3>
+                            <p>1.轉賬到以下戶口:</p>
+                            <p>銀行名稱: 恒生銀行</p>
+                            <p>戶口號碼: 293-1-328328</p>
+                            <p>戶口名稱: 嗇色園</p>
+                            <p>2.下載並填妥捐款表格</p>
+                            <p>3.將銀行存款記錄單正本或副本連同捐款表格透過以下方式通知本園總辦事處：</p>
+                            <p>郵寄：九龍黃大仙竹園村二號嗇色園總辦事處</p>
+                            <p>電郵：donation@siksikyuen.org.hk</p>
+                            <p>傳真：(852) 2351 5640</p>
+                            <p>4.本園將會為捐款人發出正式收據</p>
+                            <p class="note">*捐款滿港幣100元或以上可憑收據向政府申請免稅</p>
+                            <p>嗇色園所收集之個人資料只供本園作發出收據、通訊、籌款及收集意見之用。所有資料絕對保密。如有任何問題，可致電(852) 2327 8141 與本園聯絡。</p>
+                            <a href="https://www2.siksikyuen.org.hk/docs/default-source/%E6%85%88%E5%96%84%E6%8D%90%E6%AC%BE/ssyf-go-016(v1-1)_%E6%8D%90%E6%AC%BE%E8%A1%A8%E6%A0%BC.pdf?sfvrsn=680e3741_6" class="download-btn">捐款表格下載</a>
+                        </div>
+
+                        <!-- 繳費靈內容 -->
+                        <div id="pps" class="method-details">
+                            <h3 class="sub-title">繳費靈</h3>
+                            <p>1.繳費靈編號：9743</p>
+                            <p>商戶名稱：嗇色園</p>
+                            <p>2.完成捐款後可自行保留繳費靈付款編號作記錄</p>
+                            <p>3.本園將會為捐款人發出正式收據</p>
+                            <p class="note">* 捐款滿港幣100元或以上可憑收據向政府申請免稅</p>
+                            <p>嗇色園所收集之個人資料只供本園作發出收據、通訊、籌款及收集意見之用。所有資料絕對保密。如有任何問題，可致電(852) 2327 8141 與本園聯絡。</p>
+                        </div>
+
+                        <!-- 親臨捐款內容 -->
+                        <div id="inperson" class="method-details">
+                            <h3 class="sub-title">親臨捐款</h3>
+                            <p>歡迎善信及善長於辦公時間星期一至日上午8時至下午4時30分親臨九龍黃大仙竹園村二號嗇色園總辦事處，透過現金、支票、銀行自動轉賬、信用卡、八達通、支付寶或微信支付方式辦理捐款手續，或把善款投入祠內捐款箱。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2025 Sik Sik Yuen. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('.method-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                document.querySelectorAll('.method-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                this.classList.add('active');
+                
+                document.querySelectorAll('.method-details').forEach(content => {
+                    content.classList.remove('active');
+                });
+                const targetId = this.getAttribute('data-target');
+                document.getElementById(targetId).classList.add('active');
+            });
+        });
+
+
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,298 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  background: #BF1A2F;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+nav {
+  margin: 10px 0;
+  margin-top: 20px;
+
+}
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+.container {
+  width: 90%;
+  max-width: 1500px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #BF1A2F;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #BF1A2F;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.item {
+  text-align: center;
+}
+
+#logo {
+  height: 60px;
+  width: auto;
+}
+
+.slideandinfo {
+  display: flex;
+  padding: 20px;
+}
+.slideshow {
+  flex: 2.5;
+  margin-right: 20px;
+}
+.slideshow img {
+  width: 100%;
+  height: auto;
+}
+.info {
+  flex: 1;
+}
+
+.map {
+  text-align: center;
+}
+
+.map img {
+  max-width: 100%;
+}
+
+#searchbar {
+  border-radius: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #BF1A2F;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    margin: 10px 0;
+    margin-top: 20px;
+
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #BF1A2F;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #BF1A2F;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.item {
+    text-align: center;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+}
+
+.slideandinfo {
+    display: flex;
+    padding: 20px;
+}
+.slideshow {
+    flex: 2.5;
+    margin-right: 20px;
+}
+.slideshow img {
+    width: 100%;
+    height: auto;
+}
+.info {
+    flex: 1;
+}
+
+.map {
+    text-align: center;
+}
+
+.map img {
+    max-width: 100%;
+}
+
+#searchbar {
+    border-radius: 100px;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #D2042D;
+    text-align: center;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 1rem;
+    display: inline-block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.main-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #D2042D, #ff6b6b);
+}
+  
+/* News Section Styles */
+.news-section {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(191, 26, 47, 0.1);
+}
+  
+.news-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+  
+.news-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+  
+.news-section:hover .news-image {
+  transform: scale(1.02);
+}
+  
+.news-date {
+  color: #D2042D;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.4rem;
+  border-bottom: none;
+  display: inline-block;
+  position: relative;
+}
+  
+.news-date::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #D2042D, #ff6b6b);
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(210, 4, 45, 0.2);
+}
+  
+.news-content {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #444;
+  margin-bottom: 0;
+  padding: 0.3rem 0;
+}
+  
+/* Container spacing */
+.container {
+  padding: 0.8rem 0;
+}
+  
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .news-section {
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .news-date {
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .news-content {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}
+  
+

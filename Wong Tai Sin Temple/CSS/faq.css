@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background: #BF1A2F;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    margin: 10px 0;
+    margin-top: 20px;
+
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #BF1A2F;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #BF1A2F;
+    color: white;
+    margin-top: 50px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.item {
+    text-align: center;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+}
+
+.slideandinfo {
+    display: flex;
+    padding: 20px;
+}
+.slideshow {
+    flex: 2.5;
+    margin-right: 20px;
+}
+.slideshow img {
+    width: 100%;
+    height: auto;
+}
+.info {
+    flex: 1;
+}
+
+.map {
+    text-align: center;
+}
+
+.map img {
+    max-width: 100%;
+}
+
+#searchbar {
+    border-radius: 100px;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif;
+}
+
+/* 全局樣式 */
+body {
+    font-family: 'Microsoft JhengHei', Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* 頁首樣式 */
+header {
+    background: #BF1A2F;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 10px 0;
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.item {
+    text-align: center;
+}
+
+#logo {
+    height: 60px;
+    width: auto;
+}
+
+#searchbar {
+    border-radius: 100px;
+}
+
+/* 主標題樣式 */
+.main-title {
+    color: #BF1A2F;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.main-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #BF1A2F, #ff6b6b);
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(191, 26, 47, 0.2);
+}
+
+/* FAQ容器樣式 */
+.faq-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+/* 手風琴樣式 */
+.accordion-item {
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 10px !important;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.accordion-button {
+    background-color: white;
+    color: #333;
+    font-weight: 600;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #BF1A2F;
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(191, 26, 47, 0.25);
+}
+
+.accordion-button::after {
+    background-size: 1.25rem;
+    transition: all 0.3s ease;
+}
+
+.accordion-body {
+    background-color: #fff;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2rem;
+    }
+    
+    .faq-container {
+        padding: 15px;
+    }
+    
+    .accordion-button {
+        padding: 15px;
+        font-size: 0.95rem;
+    }
+    
+    .accordion-body {
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+} 
